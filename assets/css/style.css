@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'EB Garamond', serif;
+}
+
+/* tipografías */
+.oswald{
+  font-family: 'Oswald', sans-serif;
+}
+
+hr{
+  border: solid 1px #e49e76;
+}
+
+h1,h5{
+  font-family: 'Oswald', sans-serif;
+}
+
+/* menú */
+nav{
+  transition: background-color 0.3s;
+}
+
+#menu a{
+  color: white;
+}
+
+#menu a:hover{
+  opacity: 80%;
+}
+
+.const{
+  width: 150px;
+}
+
+/* hero: carousel */
+#carouselExampleFade{
+  height: 100vh;
+  width: 100vw;
+}
+
+.carousel-item{
+  height: 100vh;
+  width: 100vw;
+}
+
+#carousel-01{
+  background-image: url(../img/slide-01.jpg);
+  background-position: center;
+}
+
+#carousel-02{
+  background-image: url(../img/slide-02.jpg);
+  background-position: right;
+}
+
+#carousel-03{
+  background-image: url(../img/slide-03.jpg);
+  background-position: left;
+}
+
+#carousel-01, #carousel-02, #carousel-03{
+  background-size: cover;
+
+}
+
+/* sobre mí */
+.foto-perfil img{
+  width: 100%;
+  border: solid 5px #e7bfde;
+}
+
+.sobremi{
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  .nombre{text-align: center;}
+  .titulo-exp{margin-top: 80px;}
+  .borde5{border: solid 5px white;}}
+
+@media (min-width: 992px) {
+  .nombre{text-align: left;}}
+
+/* estudios */
+.estudio img{
+  width: 150px;
+}
+
+.estudio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* portafolio */
+.item img{
+  width: 100%;
+}
+
+.item{
+  padding: 0;
+}
+
+/* footer */
+footer{
+  background: #e49e76;
+}
+
+footer i {
+  color: white;
+  font-size: 30px;
+}
+
+footer i:hover {
+  opacity: 80%;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 1em;
+  vertical-align: middle;
+}
+
+.galeria img{
+  width: 100%;
+}
